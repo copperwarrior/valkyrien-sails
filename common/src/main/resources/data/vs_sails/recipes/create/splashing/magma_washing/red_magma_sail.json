@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "vs_sails:red_magma_sail"
+    }
+  ],
+  "results": [
+    {
+      "item": "vs_sails:red_sail"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "vs_sails:light_gray_sail"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "results": [
+    {
+      "item": "vs_sails:light_gray_magma_sail"
+    }
+  ]
+}

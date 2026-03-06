@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "vs_sails:magma_rope_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "vs_sails:rope_block"
+    }
+  ]
+}

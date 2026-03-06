@@ -1,0 +1,20 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "vs_sails:brown_sail"
+    },
+    {
+      "amount": 20250,
+      "fluid": "create:potion",
+      "nbt": {
+        "Potion": "minecraft:fire_resistance"
+      }
+    }
+  ],
+  "results": [
+    {
+      "item": "vs_sails:brown_magma_sail"
+    }
+  ]
+}

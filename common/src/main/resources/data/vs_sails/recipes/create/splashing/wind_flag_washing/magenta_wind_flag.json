@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "vs_sails:magenta_wind_flag"
+    }
+  ],
+  "results": [
+    {
+      "item": "vs_sails:magenta_wind_flag"
+    }
+  ]
+}
