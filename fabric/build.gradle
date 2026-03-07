@@ -49,6 +49,12 @@ dependencies {
     modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
     modImplementation("net.fabricmc:fabric-language-kotlin:1.10.10+kotlin.1.9.10")
 
+    // EMI runtime
+    modLocalRuntime "maven.modrinth:emi:${rootProject.emi_version}+1.20.1+fabric"
+
+    // JEI runtime
+    modLocalRuntime "maven.modrinth:jei:${rootProject.jei_version}-fabric,1.20.1"
+
     // Architectury API
     include(modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}")
 

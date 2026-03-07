@@ -33,6 +33,11 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     //modCompileOnly "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
 
+    // EMI + JEI API (shared plugin sources live in common).
+    // Use modCompileOnly so Loom remaps intermediary/obfuscated MC signatures.
+    modCompileOnly "maven.modrinth:emi:${rootProject.emi_version}+1.20.1+fabric"
+    modCompileOnly "maven.modrinth:jei:${rootProject.jei_version}-fabric,1.20.1"
+
     compileOnly "maven.modrinth:weather-storms-tornadoes:1.20.1-2.8.3"
     //modImplementation("maven.modrinth:vlib:1.20.1-0.0.9-alpha+fabric")
 

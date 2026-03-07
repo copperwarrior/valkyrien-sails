@@ -2,7 +2,7 @@
   "type": "create:splashing",
   "ingredients": [
     {
-      "item": "vs_sails:wind_flag"
+      "tag": "vs_sails:wind_flags"
     }
   ],
   "results": [

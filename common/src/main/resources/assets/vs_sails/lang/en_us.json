@@ -113,5 +113,7 @@
   "item.vs_sails.wind_flag.patterned_name": "%s %s",
 
   "category.sails_main": "Valkyrien Sails",
-  "category.sails_colors": "Sails Colors"
+  "category.sails_colors": "Sails Colors",
+  "jei.vs_sails.category.wind_flag_crafting": "Wind Flag Crafting",
+  "jei.vs_sails.category.world_interactions": "VS Sails World Interactions"
 }
