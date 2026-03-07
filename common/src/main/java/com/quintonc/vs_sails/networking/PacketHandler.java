@@ -25,6 +25,7 @@ public class PacketHandler {
 
         CHANNEL.register(WheelAngleMessage.class, WheelAngleMessage::encode, WheelAngleMessage::new, WheelAngleMessage::apply);
         CHANNEL.register(WheelMessage.class, WheelMessage::encode, WheelMessage::new, WheelMessage::apply);
+        CHANNEL.register(WindDataPacket.class, WindDataPacket::encode, WindDataPacket::new, WindDataPacket::apply);
 
         NetworkManager.registerReceiver(NetworkManager.Side.S2C, PacketHandler.WHEEL_ANGLE_PACKET, (buf, context) -> {
             //Player player = context.getPlayer();
