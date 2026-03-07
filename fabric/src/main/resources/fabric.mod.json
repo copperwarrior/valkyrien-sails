@@ -24,6 +24,16 @@
 			{
 				"value": "com.quintonc.vs_sails.ValkyrienSailsFabricClient"
 			}
+		],
+		"emi": [
+			{
+				"value": "com.quintonc.vs_sails.integration.emi.ValkyrienSailsEmiPlugin"
+			}
+		],
+		"jei_mod_plugin": [
+			{
+				"value": "com.quintonc.vs_sails.integration.jei.ValkyrienSailsJeiPlugin"
+			}
 		]
 	},
 	"mixins": [

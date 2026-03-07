@@ -70,6 +70,12 @@ repositories {
 dependencies {
     forge "net.minecraftforge:forge:$forge_version"
 
+    // EMI runtime
+    modLocalRuntime "maven.modrinth:emi:${rootProject.emi_version}+1.20.1+forge"
+
+    // JEI runtime
+    modLocalRuntime "maven.modrinth:jei:${rootProject.jei_version}-forge,1.20.1"
+
     // Architectury API
     include(modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}")
 
